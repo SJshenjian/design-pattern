@@ -33,7 +33,7 @@ public class User {
 		return user;
 	}*/
 	
-	//3静态内部类
+	//3。静态内部类
 	private static class LazyHolder{
 		private static final User USER=new User();
 	}
