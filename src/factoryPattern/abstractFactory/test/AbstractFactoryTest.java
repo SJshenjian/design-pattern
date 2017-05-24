@@ -10,6 +10,9 @@ import factoryPattern.abstractFactory.service.Shape;
 import factoryPattern.abstractFactory.service.impl.factory.ColorFactory;
 import factoryPattern.abstractFactory.service.impl.factory.ShapeFactory;
 
+/*
+ * 测试类
+ */
 public class AbstractFactoryTest {
 
 	@Test
