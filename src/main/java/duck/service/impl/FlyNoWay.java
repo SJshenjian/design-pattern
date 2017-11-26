@@ -1,6 +1,6 @@
-package headfirst.duck.service.impl;
+package duck.service.impl;
 
-import headfirst.duck.service.FlyBehavior;
+import duck.service.FlyBehavior;
 
 public class FlyNoWay implements FlyBehavior {
 

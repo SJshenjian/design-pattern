@@ -1,4 +1,4 @@
-package headfirst.duck.service;
+package duck.service;
 
 public interface QuackBehavior {
 

@@ -1,7 +1,8 @@
-package headfirst.duck;
+package duck;
 
-import headfirst.duck.service.FlyBehavior;
-import headfirst.duck.service.QuackBehavior;
+
+import duck.service.FlyBehavior;
+import duck.service.QuackBehavior;
 
 public abstract class Duck {
 	FlyBehavior flyBehavior;
@@ -22,5 +23,13 @@ public abstract class Duck {
 	
 	public String swim(){
 		return "All ducks float";
+	}
+
+	public void setFlyBehavior(FlyBehavior flyBehavior){
+		this.flyBehavior = flyBehavior;
+	}
+
+	public void setQuackBehavior(QuackBehavior quackBehavior){
+		this.quackBehavior = quackBehavior;
 	}
 }
