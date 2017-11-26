@@ -1,4 +1,4 @@
-package duck.service;
+package headfirst.duck.service;
 
 public interface FlyBehavior {
 

@@ -1,8 +1,7 @@
-package duck;
+package headfirst.duck;
 
-
-import duck.service.impl.FlyWithWings;
-import duck.service.impl.Quack;
+import headfirst.duck.service.impl.FlyWithWings;
+import headfirst.duck.service.impl.Quack;
 
 public class MallardDuck extends Duck{
 
