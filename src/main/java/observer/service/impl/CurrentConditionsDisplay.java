@@ -1,8 +1,8 @@
-package observer.impl;
+package observer.service.impl;
 
-import observer.DisplayElement;
-import observer.Observer;
-import observer.Subject;
+import observer.service.DisplayElement;
+import observer.service.Observer;
+import observer.service.Subject;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;

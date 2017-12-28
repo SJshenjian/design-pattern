@@ -1,4 +1,4 @@
-package observer;
+package observer.service;
 
 public interface DisplayElement {
     void display();

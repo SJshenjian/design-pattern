@@ -1,7 +1,7 @@
-package observer.impl;
+package observer.service.impl;
 
-import observer.Observer;
-import observer.Subject;
+import observer.service.Observer;
+import observer.service.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

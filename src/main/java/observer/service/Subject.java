@@ -1,4 +1,6 @@
-package observer;
+package observer.service;
+
+import observer.service.Observer;
 
 public interface Subject {
 

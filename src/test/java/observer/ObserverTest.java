@@ -1,7 +1,7 @@
 package observer;
 
-import observer.impl.CurrentConditionsDisplay;
-import observer.impl.WeatherData;
+import observer.service.impl.CurrentConditionsDisplay;
+import observer.service.impl.WeatherData;
 import org.junit.Test;
 
 public class ObserverTest {
