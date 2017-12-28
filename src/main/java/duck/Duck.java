@@ -11,7 +11,7 @@ public abstract class Duck {
 	public Duck(){		
 	}
 	
-	public abstract String display();//鸭子的外观
+	public abstract String display();
 	
 	public String performFly(){
 		return flyBehavior.fly();
