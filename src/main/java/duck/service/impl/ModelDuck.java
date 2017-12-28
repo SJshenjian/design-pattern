@@ -5,7 +5,6 @@ import duck.service.FlyBehavior;
 import duck.service.QuackBehavior;
 
 public class ModelDuck extends Duck{
-
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
