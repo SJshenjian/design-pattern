@@ -1,7 +1,5 @@
 package factory.factoryMethod;
 
-import factory.Pizza;
-
 public abstract class PizzaStore {
 
     public Pizza orderPizza(String type) {

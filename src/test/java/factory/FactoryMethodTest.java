@@ -1,5 +1,6 @@
 package factory;
 
+import factory.factoryMethod.Pizza;
 import factory.factoryMethod.PizzaStore;
 import factory.factoryMethod.impl.store.ChicagoPizzaStore;
 import factory.factoryMethod.impl.store.NYPizzaStore;

@@ -1,6 +1,6 @@
 package factory.factoryMethod.impl.store;
 
-import factory.Pizza;
+import factory.factoryMethod.Pizza;
 import factory.factoryMethod.PizzaStore;
 import factory.factoryMethod.impl.pizza.ChicagoStyleCheesePizza;
 import factory.factoryMethod.impl.pizza.ChicagoStyleVeggiePizza;

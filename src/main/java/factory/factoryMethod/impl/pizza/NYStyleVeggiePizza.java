@@ -1,6 +1,6 @@
 package factory.factoryMethod.impl.pizza;
 
-import factory.Pizza;
+import factory.factoryMethod.Pizza;
 
 public class NYStyleVeggiePizza extends Pizza {
 
