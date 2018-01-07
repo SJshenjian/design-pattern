@@ -1,5 +1,6 @@
 package factory;
 
+import factory.simpleFactory.Pizza;
 import factory.simpleFactory.PizzaStore;
 import org.junit.Test;
 

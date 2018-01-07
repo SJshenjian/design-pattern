@@ -1,6 +1,6 @@
 package factory.simpleFactory;
 
-import factory.Pizza;
+import factory.simpleFactory.Pizza;
 import factory.simpleFactory.impl.CheesePizza;
 import factory.simpleFactory.impl.VeggiePizza;
 
