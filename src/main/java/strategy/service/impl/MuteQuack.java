@@ -1,6 +1,6 @@
-package duck.service.impl;
+package strategy.service.impl;
 
-import duck.service.QuackBehavior;
+import strategy.service.QuackBehavior;
 
 /**安静**/
 public class MuteQuack implements QuackBehavior {

@@ -1,6 +1,6 @@
-package duck.service.impl;
+package strategy.service.impl;
 
-import duck.service.QuackBehavior;
+import strategy.service.QuackBehavior;
 
 /**呱呱叫**/
 public class Quack implements QuackBehavior {

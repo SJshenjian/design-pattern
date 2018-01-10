@@ -1,8 +1,8 @@
-package duck.service.impl;
+package strategy.service.impl;
 
-import duck.Duck;
-import duck.service.FlyBehavior;
-import duck.service.QuackBehavior;
+import strategy.Duck;
+import strategy.service.FlyBehavior;
+import strategy.service.QuackBehavior;
 
 public class ModelDuck extends Duck{
     FlyBehavior flyBehavior;

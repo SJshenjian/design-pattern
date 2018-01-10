@@ -1,8 +1,8 @@
-package duck;
+package strategy;
 
 
-import duck.service.impl.FlyWithWings;
-import duck.service.impl.Quack;
+import strategy.service.impl.FlyWithWings;
+import strategy.service.impl.Quack;
 
 public class MallardDuck extends Duck{
 	public MallardDuck(){

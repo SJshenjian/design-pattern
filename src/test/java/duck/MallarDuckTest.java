@@ -2,12 +2,12 @@ package duck;
 
 import static org.junit.Assert.*;
 
-import duck.service.impl.FlyRocketPowered;
-import duck.service.impl.ModelDuck;
+import strategy.service.impl.FlyRocketPowered;
+import strategy.service.impl.ModelDuck;
 import org.junit.Test;
 
-import duck.Duck;
-import duck.MallardDuck;
+import strategy.Duck;
+import strategy.MallardDuck;
 
 public class MallarDuckTest {
 

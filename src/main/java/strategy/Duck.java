@@ -1,8 +1,8 @@
-package duck;
+package strategy;
 
 
-import duck.service.FlyBehavior;
-import duck.service.QuackBehavior;
+import strategy.service.FlyBehavior;
+import strategy.service.QuackBehavior;
 
 public abstract class Duck {
 	FlyBehavior flyBehavior;
