@@ -1,5 +1,10 @@
 package state.service;
 
+import state.service.impl.HasQuarterState;
+import state.service.impl.NoQuarterState;
+import state.service.impl.SoldOutState;
+import state.service.impl.SoldState;
+
 public class GumballMachine {
     private State soldState;
     private State soldOutState;
