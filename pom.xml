@@ -10,7 +10,7 @@
 
     <!--版本号统一管理-->
     <properties>
-        <version.junit>4.4</version.junit>
+        <version.junit>4.7</version.junit>
     </properties>
 
     <dependencies>
