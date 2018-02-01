@@ -1,9 +1,10 @@
-package state.service;
+package proxy.remoteProxy.service.impl;
 
-import observer.service.impl.jdk.WeatherData;
+import proxy.remoteProxy.service.GumballMachine;
+import proxy.remoteProxy.service.State;
 
 public class WinnerState implements State {
-    private GumballMachine gumballMachine;
+    private transient GumballMachine gumballMachine;
 
     public WinnerState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;

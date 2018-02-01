@@ -1,10 +1,13 @@
-package state.service;
+package proxy.remoteProxy.service.impl;
+
+import proxy.remoteProxy.service.GumballMachine;
+import proxy.remoteProxy.service.State;
 
 import java.util.Random;
 
 public class HasQuarterState implements State {
     private Random random = new Random(System.currentTimeMillis());
-    private GumballMachine gumballMachine;
+    private transient GumballMachine gumballMachine;
 
     public HasQuarterState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
