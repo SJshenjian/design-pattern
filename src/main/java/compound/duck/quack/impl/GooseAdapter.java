@@ -1,8 +1,6 @@
 package compound.duck.quack.impl;
 
 import compound.duck.observer.Observer;
-import compound.duck.observer.Observable;
-import compound.duck.observer.impl.QuackObservable;
 import compound.duck.quack.Quackable;
 
 public class GooseAdapter implements Quackable {

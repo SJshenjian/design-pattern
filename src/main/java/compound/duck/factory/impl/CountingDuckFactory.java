@@ -5,6 +5,7 @@ import compound.duck.quack.Quackable;
 import compound.duck.quack.impl.*;
 
 public class CountingDuckFactory implements AbstractDuckFactory {
+
     @Override
     public Quackable createMallardDuck() {
         return new QuackCounter(new MallardDuck());
