@@ -1,4 +1,4 @@
-package concurrent.vehicle;
+package concurrent.component;
 
 import concurrent.annotation.ThreadSafe;
 
@@ -31,7 +31,7 @@ public class DelegatingVehicleTracker {
 
     public void setLocation(String id, int x, int y) {
         if (locations.replace(id, new Point(x, y)) == null) {
-            throw new IllegalArgumentException("invalid vehicle name : " + id);
+            throw new IllegalArgumentException("invalid component name : " + id);
         }
     }
 }

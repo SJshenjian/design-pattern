@@ -1,4 +1,4 @@
-package concurrent.synchronizeUtil;
+package concurrent.module;
 
 import java.util.concurrent.*;
 

@@ -1,4 +1,4 @@
-package concurrent.vehicle;
+package concurrent.component;
 
 import concurrent.annotation.ThreadSafe;
 
@@ -31,7 +31,7 @@ public class PublishVehicleTracker {
 
     public void setLocation(String id, int x, int y) {
         if (!locations.containsKey(id)) {
-            throw new IllegalArgumentException("invalid vehicle name : " + id);
+            throw new IllegalArgumentException("invalid component name : " + id);
         }
         locations.get(id).set(x, y);
     }

@@ -1,4 +1,4 @@
-package concurrent.synchronizeUtil;
+package concurrent.module;
 
 /**
  * @author : Jian Shen

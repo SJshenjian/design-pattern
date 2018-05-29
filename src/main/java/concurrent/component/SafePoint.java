@@ -1,4 +1,4 @@
-package concurrent.vehicle;
+package concurrent.component;
 
 import concurrent.annotation.ThreadSafe;
 

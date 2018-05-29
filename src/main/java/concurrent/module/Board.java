@@ -1,7 +1,4 @@
-package concurrent.synchronizeUtil;
-
-import java.util.concurrent.CompletionService;
-import java.util.concurrent.FutureTask;
+package concurrent.module;
 
 /**
  * @author : Jian Shen
