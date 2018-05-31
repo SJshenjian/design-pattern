@@ -1,4 +1,4 @@
-package concurrent.interrupt;
+package concurrent.cancelAndShutdown;
 
 import java.math.BigInteger;
 import java.util.concurrent.BlockingQueue;
