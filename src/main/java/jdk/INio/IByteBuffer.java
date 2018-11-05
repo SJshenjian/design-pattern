@@ -1,11 +1,13 @@
 package jdk.INio;
 
 import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
 
 /**
  * @author : Jian Shen
  * @version : V1.0
  * @date : 2018/8/28
+ * @see https://blog.csdn.net/jameshadoop/article/details/51671953
  */
 public class IByteBuffer {
 
