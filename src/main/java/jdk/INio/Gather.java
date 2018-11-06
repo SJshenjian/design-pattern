@@ -1,5 +1,6 @@
 package jdk.INio;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -17,11 +18,12 @@ import java.util.Random;
  */
 public class Gather {
 
-    private static String newLine = System.getProperty("line.separator");
     private static Random random = new Random();
 
     public static void main(String[] args) throws IOException {
-        FileOutputStream outputStream = new FileOutputStream("E:\\Project\\java\\design-pattern\\src\\main\\resources\\jdk\\INio\\gather.txt");
+        String path = "src" + File.separator + "main" + File.separator + "resources" +
+                File.separator + "jdk" + File.separator + "INio" + File.separator + "gather.txt" ;
+        FileOutputStream outputStream = new FileOutputStream(path);
 
         ByteBuffer[] buffers = fillBuffer(5);
 
@@ -48,7 +50,7 @@ public class Gather {
         for (int i = 0; i < number; i++) {
             buffers.add(randomBuffer(stringOne, " "));
             buffers.add(randomBuffer(stringTwo, " "));
-            buffers.add(randomBuffer(stringThree, newLine));
+            buffers.add(randomBuffer(stringThree, "\n"));
         }
 
         ByteBuffer[] byteBuffers = new ByteBuffer[buffers.size()];
