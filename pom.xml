@@ -11,6 +11,8 @@
     <!--版本号统一管理-->
     <properties>
         <version.junit>4.7</version.junit>
+        <version.slf4j>1.7.25</version.slf4j>
+        <version.log4j-slf4j>2.9.1</version.log4j-slf4j>
     </properties>
 
     <dependencies>
