@@ -1,4 +1,4 @@
-package jdk.INio;
+package jdk.INio.channel;
 
 import java.io.File;
 import java.io.FileOutputStream;

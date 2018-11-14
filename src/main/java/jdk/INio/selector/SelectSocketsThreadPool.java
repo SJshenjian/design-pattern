@@ -1,4 +1,4 @@
-package jdk.INio;
+package jdk.INio.selector;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

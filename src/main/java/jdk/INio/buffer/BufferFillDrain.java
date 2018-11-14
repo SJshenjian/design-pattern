@@ -1,4 +1,4 @@
-package jdk.INio;
+package jdk.INio.buffer;
 
 import java.nio.CharBuffer;
 

@@ -1,4 +1,4 @@
-package jdk.INio;
+package jdk.INio.channel;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,13 +11,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * 从Lock拷贝而来，测试进程间文件锁机制
- *
  * @author Jian Shen
  * @version V1.0
  * @date 2018/11/6
  */
-public class LockCopy {
+public class Lock {
 
     private static final String FILENAME = "src" + File.separator + "main" + File.separator + "resources" + File.separator + "jdk" + File.separator + "INio" + File.separator + "lock.txt" ;
 
@@ -35,7 +33,7 @@ public class LockCopy {
         Scanner scanner = new Scanner(System.in);
         String command = scanner.next();
 
-        LockCopy lock = new LockCopy();
+        Lock lock = new Lock();
         try (
                 RandomAccessFile randomAccessFile = new RandomAccessFile(FILENAME, "-rw".equalsIgnoreCase(command) ? "rw" : "r");
                 FileChannel fileChannel = randomAccessFile.getChannel();
