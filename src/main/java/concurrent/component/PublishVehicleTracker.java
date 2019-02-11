@@ -13,6 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 @ThreadSafe
 public class PublishVehicleTracker {
+
     private final Map<String, SafePoint> locations;
     private final Map<String, SafePoint> unmodifiableMap;
 
@@ -22,7 +23,7 @@ public class PublishVehicleTracker {
     }
 
     public Map<String, SafePoint> getLocations() {
-        return locations;
+        return unmodifiableMap;
     }
 
     public SafePoint getLocation(String id) {

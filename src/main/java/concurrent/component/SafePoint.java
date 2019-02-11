@@ -9,6 +9,7 @@ import concurrent.annotation.ThreadSafe;
  */
 @ThreadSafe
 public class SafePoint {
+
     private int x;
     private int y;
 

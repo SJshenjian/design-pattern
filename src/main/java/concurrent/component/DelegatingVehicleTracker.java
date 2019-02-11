@@ -13,6 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 @ThreadSafe
 public class DelegatingVehicleTracker {
+
     private final ConcurrentHashMap<String, Point> locations;
     private final Map<String, Point> unmodifiableMap;
 
@@ -22,7 +23,7 @@ public class DelegatingVehicleTracker {
     }
 
     public Map<String, Point> getLocations() {
-        return locations;
+        return unmodifiableMap;
     }
 
     public Point getLocation(String id) {
