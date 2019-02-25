@@ -5,6 +5,8 @@ package concurrent.module;
  * @version : V1.0
  * @date : 2018/5/26
  */
-public interface Computable<A, V> {
-    V compute(A arg) throws InterruptedException;
+@FunctionalInterface
+public interface Computable<K, V> {
+
+    V compute(K key) throws InterruptedException;
 }
