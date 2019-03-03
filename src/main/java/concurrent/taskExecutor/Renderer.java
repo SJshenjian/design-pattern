@@ -4,11 +4,14 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
+ * 使用CompletionService实现页面渲染器
+ *
  * @author : Jian Shen
  * @version : V1.0
  * @date : 2018/5/27
  */
 public class Renderer {
+
     private ExecutorService executor;
 
     public Renderer(ExecutorService executor) {
@@ -17,16 +20,14 @@ public class Renderer {
 
     public void renderPage(CharSequence source) {
         List<ImageInfo> info = scanImageInfo(source);
-        CompletionService<ImageData> completionService = new ExecutorCompletionService<ImageData>(executor);
+        CompletionService<ImageData> completionService = new ExecutorCompletionService<>(executor);
+
         for (final ImageInfo imageInfo : info) {
-            completionService.submit(new Callable<ImageData>() {
-                @Override
-                public ImageData call() throws Exception {
-                    return imageInfo.downloadImage();
-                }
+            completionService.submit(() -> {
+                return imageInfo.downloadImage();
             });
         }
-        
+
         renderText(source);
 
         try {
@@ -47,7 +48,7 @@ public class Renderer {
     }
 
     private void renderText(CharSequence source) {
-        return ;
+        return;
     }
 
     private List<ImageInfo> scanImageInfo(CharSequence source) {
@@ -56,7 +57,6 @@ public class Renderer {
 
     private class ImageInfo {
         public ImageData downloadImage() {
-            // TODO 图片下载
             return null;
         }
     }
