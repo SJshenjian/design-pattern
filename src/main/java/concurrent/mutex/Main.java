@@ -12,10 +12,6 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             new Thread(new MutexThread(mutex)).start();
         }
-
-        mutex.acquire();
-        mutex.acquire();
-        System.out.println("Hello World"); // 独享锁不可重入，故该句不会打印
     }
 }
 

@@ -1,7 +1,7 @@
 package concurrent.mutex;
 
 /**
- * 独享锁
+ * 独占锁
  *
  * @author Jian Shen
  * @version V1.0
