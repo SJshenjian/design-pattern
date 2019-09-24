@@ -1,2 +1,6 @@
 Header First设计模式之命令模式：
 命令模式将请求封装成对象，以便使用不同的请求、队列或日志参数化其他对象。命令模式也支持可撤销的操作。
+
+SpringMvc中HandlerMapping中方法
+HandlerExecutionChain getHandler(HttpServletRequest request) throws Exception;
+便是典型的Command模式的使用，这个HandlerExecutionChain不但持有handler本身，还包括处理这个HTTP请求相关的拦截器
