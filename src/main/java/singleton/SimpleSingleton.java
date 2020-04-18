@@ -1,14 +1,17 @@
 package singleton;
 
-public class SimpleSingleton {
-    private static SimpleSingleton instance;
+/**
+ * 静态内部内实现
+ */
+public class Singleton {
 
-    private SimpleSingleton() {};
+    private Singleton() {};
 
-    public static SimpleSingleton getInstance() {
-        if (null == instance) {
-            instance = new SimpleSingleton();
-        }
-        return instance;
+    public static Singleton getInstance() {
+        return SingletonHolder.singleton;
+    }
+
+    private static class SingletonHolder {
+        private static final Singleton singleton = new Singleton();
     }
 }
