@@ -1,7 +1,7 @@
 package singleton;
 
 /**
- * 静态内部内实现
+ * 静态内部类实现
  */
 public class Singleton {
 
